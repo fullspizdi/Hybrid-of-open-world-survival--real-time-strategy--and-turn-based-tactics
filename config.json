@@ -1,0 +1,51 @@
+{
+  "gameSettings": {
+    "serverCapacity": 10000,
+    "persistentWorld": true,
+    "initialPlanetType": "Earth-like",
+    "climateApocalypseEffects": ["scarred landscapes", "reduced resources", "hostile wildlife"]
+  },
+  "phaseSettings": {
+    "scavengingSurvival": {
+      "initialResources": ["food", "water", "basic tools"],
+      "threats": ["wildlife", "environmental hazards", "scavengers"]
+    },
+    "communityBuilding": {
+      "factionSizeLimits": {"min": 5, "max": 500},
+      "technologyLevels": ["renewable energy", "basic agriculture"]
+    },
+    "technologicalAdvancement": {
+      "availableTech": ["construction", "vehicles", "communication"],
+      "conflictTriggers": ["tech competition", "trade disputes"]
+    },
+    "stellarExploration": {
+      "spacecraftRequirements": ["advanced materials", "energy sources"],
+      "newPlanetTraits": ["unique resources", "habitable zones", "alien threats"]
+    },
+    "interstellarConflict": {
+      "warfareElements": ["space fleets", "orbital outposts", "advanced weaponry"],
+      "diplomacyOptions": ["form federations", "engage in piracy"]
+    }
+  },
+  "multiplayerMechanics": {
+    "roles": ["builder", "scientist", "leader", "soldier", "trader", "diplomat"],
+    "combatTypes": ["RTS", "turn-based tactics"]
+  },
+  "additionalFeatures": {
+    "proceduralNarrative": true,
+    "complexEconomy": {
+      "influences": ["supply and demand", "reputation", "strategic blockades"],
+      "currencyTypes": ["basic", "advanced", "interstellar"]
+    },
+    "hardcoreMode": {
+      "permadeath": true,
+      "knowledgePreservation": true
+    },
+    "environmentalChallenges": {
+      "planetHazards": ["radiation storms", "toxic atmospheres", "extreme biomes"]
+    },
+    "ghostAI": {
+      "interactionTypes": ["bargain", "reprogram", "threat"]
+    }
+  }
+}
